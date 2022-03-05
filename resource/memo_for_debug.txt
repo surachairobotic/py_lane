@@ -1,0 +1,40 @@
+1646474557.903714794] [lane_guidance]: height : "1"
+1646474557.904352457] [lane_guidance]: width : "42731"
+1646474557.904898766] [lane_guidance]: is_bigendian : "False"
+1646474557.905434946] [lane_guidance]: point_step : "20"
+1646474557.905964748] [lane_guidance]: row_step : "854620"
+1646474557.906500815] [lane_guidance]: is_dense : "True"
+
+
+1646474557.907062518] [lane_guidance]: header : "std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=1646474557, nanosec=843225600), frame_id='camera_depth_optical_frame')"
+
+
+1646474557.907782139] [lane_guidance]: fields : "
+
+[
+sensor_msgs.msg.PointField(name='x', offset=0, datatype=7, count=1), 
+sensor_msgs.msg.PointField(name='y', offset=4, datatype=7, count=1), 
+sensor_msgs.msg.PointField(name='z', offset=8, datatype=7, count=1), 
+sensor_msgs.msg.PointField(name='rgb', offset=16, datatype=7, count=1)]"
+
+
+"[
+('x', dtype('float32')), 
+('y', dtype('float32')), 
+('z', dtype('float32')), 
+('__12', <class 'numpy.uint8'>), 
+('__13', <class 'numpy.uint8'>), 
+('__14', <class 'numpy.uint8'>), 
+('__15', <class 'numpy.uint8'>), 
+('rgb', dtype('float32'))]"
+
+type(xyzrgb) = "<class 'list'>"
+xyzrgb[0] = "('x', dtype('float32')), type: <class 'tuple'>"
+xyzrgb[1] = "('y', dtype('float32')), type: <class 'tuple'>"
+xyzrgb[2] = "('z', dtype('float32')), type: <class 'tuple'>"
+xyzrgb[3] = "('__12', <class 'numpy.uint8'>), type: <class 'tuple'>"
+xyzrgb[4] = "('__13', <class 'numpy.uint8'>), type: <class 'tuple'>"
+xyzrgb[5] = "('__14', <class 'numpy.uint8'>), type: <class 'tuple'>"
+xyzrgb[6] = "('__15', <class 'numpy.uint8'>), type: <class 'tuple'>"
+xyzrgb[7] = "('rgb', dtype('float32')), type: <class 'tuple'>"
+

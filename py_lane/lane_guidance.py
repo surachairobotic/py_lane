@@ -1,13 +1,13 @@
 import rclpy
 from py_lane.minimal_pub import *
-from py_lane.minimal_sub import *
+from py_lane.point_cloud_handler import *
 
 def main(args=None):
     rclpy.init(args=args)
-    node = rclpy.create_node('minimal_publisher')
+    node = rclpy.create_node('lane_guidance')
     
-    my_pub = MinimalPub(node)
-    my_sub = MinimalSub(node=node, topic='miniPub')
+    #my_pub = MinimalPub(node)
+    pc = PointCouldHandler(node)
 
     rclpy.spin(node)
 
