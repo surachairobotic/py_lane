@@ -1,3 +1,7 @@
+ [RTPS_TRANSPORT_SHM Error] Failed init_port fastrtps_port7415: open_and_lock_file failed -> Function open_port_internal
+Undefined command: "".  Try "help".
+
+
 1646474557.903714794] [lane_guidance]: height : "1"
 1646474557.904352457] [lane_guidance]: width : "42731"
 1646474557.904898766] [lane_guidance]: is_bigendian : "False"
@@ -37,4 +41,7 @@ xyzrgb[4] = "('__13', <class 'numpy.uint8'>), type: <class 'tuple'>"
 xyzrgb[5] = "('__14', <class 'numpy.uint8'>), type: <class 'tuple'>"
 xyzrgb[6] = "('__15', <class 'numpy.uint8'>), type: <class 'tuple'>"
 xyzrgb[7] = "('rgb', dtype('float32')), type: <class 'tuple'>"
+
+
+
 
